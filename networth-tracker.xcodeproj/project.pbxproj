@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9861142D20BA38310074C98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861142C20BA38310074C98F /* AppDelegate.swift */; };
+		9861142F20BA38310074C98F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861142E20BA38310074C98F /* ViewController.swift */; };
+		9861143220BA38310074C98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9861143020BA38310074C98F /* Main.storyboard */; };
+		9861143420BA38310074C98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9861143320BA38310074C98F /* Assets.xcassets */; };
+		9861143720BA38310074C98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9861143520BA38310074C98F /* LaunchScreen.storyboard */; };
+		9861144220BA38310074C98F /* networth_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861144120BA38310074C98F /* networth_trackerTests.swift */; };
+		9861144D20BA38310074C98F /* networth_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861144C20BA38310074C98F /* networth_trackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9861143E20BA38310074C98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9861142120BA38310074C98F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9861142820BA38310074C98F;
+			remoteInfo = "networth-tracker";
+		};
+		9861144920BA38310074C98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9861142120BA38310074C98F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9861142820BA38310074C98F;
+			remoteInfo = "networth-tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9861142920BA38310074C98F /* networth-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "networth-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9861142C20BA38310074C98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9861142E20BA38310074C98F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9861143120BA38310074C98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9861143320BA38310074C98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9861143620BA38310074C98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9861143820BA38310074C98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9861143D20BA38310074C98F /* networth-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "networth-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9861144120BA38310074C98F /* networth_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networth_trackerTests.swift; sourceTree = "<group>"; };
+		9861144320BA38310074C98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9861144820BA38310074C98F /* networth-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "networth-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9861144C20BA38310074C98F /* networth_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networth_trackerUITests.swift; sourceTree = "<group>"; };
+		9861144E20BA38310074C98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9861142620BA38310074C98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9861143A20BA38310074C98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9861144520BA38310074C98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9861142020BA38310074C98F = {
+			isa = PBXGroup;
+			children = (
+				9861142B20BA38310074C98F /* networth-tracker */,
+				9861144020BA38310074C98F /* networth-trackerTests */,
+				9861144B20BA38310074C98F /* networth-trackerUITests */,
+				9861142A20BA38310074C98F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9861142A20BA38310074C98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9861142920BA38310074C98F /* networth-tracker.app */,
+				9861143D20BA38310074C98F /* networth-trackerTests.xctest */,
+				9861144820BA38310074C98F /* networth-trackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9861142B20BA38310074C98F /* networth-tracker */ = {
+			isa = PBXGroup;
+			children = (
+				9861142C20BA38310074C98F /* AppDelegate.swift */,
+				9861142E20BA38310074C98F /* ViewController.swift */,
+				9861143020BA38310074C98F /* Main.storyboard */,
+				9861143320BA38310074C98F /* Assets.xcassets */,
+				9861143520BA38310074C98F /* LaunchScreen.storyboard */,
+				9861143820BA38310074C98F /* Info.plist */,
+			);
+			path = "networth-tracker";
+			sourceTree = "<group>";
+		};
+		9861144020BA38310074C98F /* networth-trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9861144120BA38310074C98F /* networth_trackerTests.swift */,
+				9861144320BA38310074C98F /* Info.plist */,
+			);
+			path = "networth-trackerTests";
+			sourceTree = "<group>";
+		};
+		9861144B20BA38310074C98F /* networth-trackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9861144C20BA38310074C98F /* networth_trackerUITests.swift */,
+				9861144E20BA38310074C98F /* Info.plist */,
+			);
+			path = "networth-trackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9861142820BA38310074C98F /* networth-tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9861145120BA38310074C98F /* Build configuration list for PBXNativeTarget "networth-tracker" */;
+			buildPhases = (
+				9861142520BA38310074C98F /* Sources */,
+				9861142620BA38310074C98F /* Frameworks */,
+				9861142720BA38310074C98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "networth-tracker";
+			productName = "networth-tracker";
+			productReference = 9861142920BA38310074C98F /* networth-tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9861143C20BA38310074C98F /* networth-trackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9861145420BA38310074C98F /* Build configuration list for PBXNativeTarget "networth-trackerTests" */;
+			buildPhases = (
+				9861143920BA38310074C98F /* Sources */,
+				9861143A20BA38310074C98F /* Frameworks */,
+				9861143B20BA38310074C98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9861143F20BA38310074C98F /* PBXTargetDependency */,
+			);
+			name = "networth-trackerTests";
+			productName = "networth-trackerTests";
+			productReference = 9861143D20BA38310074C98F /* networth-trackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9861144720BA38310074C98F /* networth-trackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9861145720BA38310074C98F /* Build configuration list for PBXNativeTarget "networth-trackerUITests" */;
+			buildPhases = (
+				9861144420BA38310074C98F /* Sources */,
+				9861144520BA38310074C98F /* Frameworks */,
+				9861144620BA38310074C98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9861144A20BA38310074C98F /* PBXTargetDependency */,
+			);
+			name = "networth-trackerUITests";
+			productName = "networth-trackerUITests";
+			productReference = 9861144820BA38310074C98F /* networth-trackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9861142120BA38310074C98F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rhys Diab";
+				TargetAttributes = {
+					9861142820BA38310074C98F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9861143C20BA38310074C98F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9861142820BA38310074C98F;
+					};
+					9861144720BA38310074C98F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9861142820BA38310074C98F;
+					};
+				};
+			};
+			buildConfigurationList = 9861142420BA38310074C98F /* Build configuration list for PBXProject "networth-tracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9861142020BA38310074C98F;
+			productRefGroup = 9861142A20BA38310074C98F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9861142820BA38310074C98F /* networth-tracker */,
+				9861143C20BA38310074C98F /* networth-trackerTests */,
+				9861144720BA38310074C98F /* networth-trackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9861142720BA38310074C98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9861143720BA38310074C98F /* LaunchScreen.storyboard in Resources */,
+				9861143420BA38310074C98F /* Assets.xcassets in Resources */,
+				9861143220BA38310074C98F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9861143B20BA38310074C98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9861144620BA38310074C98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9861142520BA38310074C98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9861142F20BA38310074C98F /* ViewController.swift in Sources */,
+				9861142D20BA38310074C98F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9861143920BA38310074C98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9861144220BA38310074C98F /* networth_trackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9861144420BA38310074C98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9861144D20BA38310074C98F /* networth_trackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9861143F20BA38310074C98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9861142820BA38310074C98F /* networth-tracker */;
+			targetProxy = 9861143E20BA38310074C98F /* PBXContainerItemProxy */;
+		};
+		9861144A20BA38310074C98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9861142820BA38310074C98F /* networth-tracker */;
+			targetProxy = 9861144920BA38310074C98F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9861143020BA38310074C98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9861143120BA38310074C98F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9861143520BA38310074C98F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9861143620BA38310074C98F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9861144F20BA38310074C98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9861145020BA38310074C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9861145220BA38310074C98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "networth-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---networth-tracker.herokuapp.com-.networth-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9861145320BA38310074C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "networth-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---networth-tracker.herokuapp.com-.networth-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9861145520BA38310074C98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "networth-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---networth-tracker.herokuapp.com-.networth-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/networth-tracker.app/networth-tracker";
+			};
+			name = Debug;
+		};
+		9861145620BA38310074C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "networth-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---networth-tracker.herokuapp.com-.networth-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/networth-tracker.app/networth-tracker";
+			};
+			name = Release;
+		};
+		9861145820BA38310074C98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "networth-trackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---networth-tracker.herokuapp.com-.networth-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "networth-tracker";
+			};
+			name = Debug;
+		};
+		9861145920BA38310074C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "networth-trackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---networth-tracker.herokuapp.com-.networth-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "networth-tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9861142420BA38310074C98F /* Build configuration list for PBXProject "networth-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9861144F20BA38310074C98F /* Debug */,
+				9861145020BA38310074C98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9861145120BA38310074C98F /* Build configuration list for PBXNativeTarget "networth-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9861145220BA38310074C98F /* Debug */,
+				9861145320BA38310074C98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9861145420BA38310074C98F /* Build configuration list for PBXNativeTarget "networth-trackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9861145520BA38310074C98F /* Debug */,
+				9861145620BA38310074C98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9861145720BA38310074C98F /* Build configuration list for PBXNativeTarget "networth-trackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9861145820BA38310074C98F /* Debug */,
+				9861145920BA38310074C98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9861142120BA38310074C98F /* Project object */;
+}
