@@ -1,0 +1,6 @@
+framework module Pods_networth_tracker {
+  umbrella header "Pods-networth-tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

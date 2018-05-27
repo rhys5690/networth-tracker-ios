@@ -1,0 +1,6 @@
+framework module Pods_networth_trackerUITests {
+  umbrella header "Pods-networth-trackerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
