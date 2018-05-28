@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func startApplication() {
+        session.delegate = self
         visit(URL: URL(string: "https://networth-tracker.herokuapp.com/")!)
     }
     
@@ -20,6 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let visitableViewController = VisitableViewController(url: URL)
         navigationController.pushViewController(visitableViewController, animated: true)
         session.visit(visitableViewController)
+    }
+}
+
+extension AppDelegate: SessionDelegate {
+    func session(_ session: Session, didProposeVisitToURL URL: URL, withAction action: Action) {
+        visit(URL: URL)
+    }
+    
+    func session(_ session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
+        let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        navigationController.present(alert, animated: true, completion: nil)
     }
 }
 
